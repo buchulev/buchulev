@@ -1,0 +1,6 @@
+klicenka.persistence.DAO.Impl
+klicenka.persistence.model
+klicenka.presentation.controller
+klicenka.presentation.ui
+klicenka.service
+klicenka.util

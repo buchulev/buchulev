@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
+        <property name="hibernate.connection.url">jdbc:postgresql://ec2-54-83-204-78.compute-1.amazonaws.com:5432/d7qqa1tf479pj6?sslfactory=org.postgresql.ssl.NonValidatingFactory&amp;ssl=true</property>
+        <property name="hibernate.connection.username">hgsonxbbbeubwz</property>
+
+        <property name="hibernate.connection.password">isS_m2sC0Zmd9t8t2A2Virje4V</property>
+ 
+        <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
+
+        <property name="hibernate.default_schema">public</property>
+       
+     
+        <property name="hibernate.hbm2ddl.auto">validate</property>
+        <property name="show_sql">false</property>
+        <property name="hibernate.format_sql">true</property>
+        
+
+		
+		<mapping class="klicenka.persistence.model.User"></mapping>
+		<mapping class="klicenka.persistence.model.Product"></mapping>
+		<mapping class="klicenka.persistence.model.Licence"></mapping>
+		<mapping class="klicenka.persistence.model.Oddeleni"></mapping>
+		<mapping class="klicenka.persistence.model.ZadostUser"></mapping>
+		<mapping class="klicenka.persistence.model.ZadostNakup"></mapping>
+<mapping class="klicenka.persistence.model.ZadostProduct"></mapping>
+    </session-factory>
+</hibernate-configuration>
