@@ -50,13 +50,17 @@ function merge_sort($array, $sestupne) {
 function merge($left_a, $right_a, $sestupne) {
 
 	$array = array();
-
+	
+	//index na iterace pro vysledne pole
 	$array_index = 0;
+	//index na iterace pro prave pole
 	$l_index = 0;
+	//index na iterace pro leve pole
 	$r_index = 0;
 
 	while ($l_index < count($left_a) && $r_index < count($right_a)) {
-
+        
+		//když $sestupne = TRUE
 		if ($sestupne) {
 			if ($left_a[$l_index] > $right_a[$r_index]) {
 
@@ -69,7 +73,9 @@ function merge($left_a, $right_a, $sestupne) {
 				$r_index++;
 				$array_index++;
 			}
-		} else {
+		} 
+		//Jinak
+		else {
 			if ($left_a[$l_index] < $right_a[$r_index]) {
 
 				$array[$array_index] = $left_a[$l_index];
@@ -84,6 +90,7 @@ function merge($left_a, $right_a, $sestupne) {
 
 		}
 	}
+	//To co zustalo v levem pole
 	while ($l_index < count($left_a)) {
 
 		$array[$array_index] = $left_a[$l_index];
@@ -91,7 +98,7 @@ function merge($left_a, $right_a, $sestupne) {
 		$l_index++;
 
 	}
-
+    //To co zustalo v pravem pole
 	while ($r_index < count($right_a)) {
 		$array[$array_index] = $right_a[$r_index];
 		$array_index++;
