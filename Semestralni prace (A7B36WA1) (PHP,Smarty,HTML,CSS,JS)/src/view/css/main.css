@@ -1,0 +1,497 @@
+
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
+
+body {
+	background-color: #000000;
+}
+
+a {
+	text-decoration:none;
+	color:black;
+	font-family: Helvetica, sans-serif;
+}
+
+
+
+
+/*==================================LOGO======================================*/
+.logo {
+
+	width: 370px;
+	height: 51px;
+	margin: 0 auto;
+	margin-top: 40px;
+	background-color: #000000;
+	/*background-image: url('../img/logo.png');*/
+	background-repeat: no-repeat;
+}
+/*===================================LOGO======================================*/
+
+
+/*===================================HEADER====================================*/
+header {
+	width: 480px;
+	height: 50px;
+	margin:80px auto;
+}
+
+.home_button {
+	border-radius: 7px 0 0 7px;
+	width: 150px;
+	border-right: solid 1px black;
+}
+
+.about_button {
+	width: 180px;
+	margin-left: -4px;
+	margin-right: -4px;
+}
+
+.contacts_button {
+	border-radius: 0 7px 7px 0;
+	margin-right: -4px;
+	width: 150px;
+	border-left: solid 1px black;
+}
+
+.centerWrap {
+	font-weight: bold;
+	font-size: larger;
+	display: block;
+	height: 25px;
+	margin-top: 15px;
+	text-align: center;
+}
+
+header span {
+	display: inline-block;
+	height: inherit;
+	background-color: #E47A0C;
+}
+/*===================================HEADER====================================*/
+
+
+
+
+
+
+/*===================================PAGE======================================*/
+.page {
+	overflow:visible;
+	width: 480px;
+	margin:0 auto;
+	min-height: 300px;
+	display:block;
+	background-color: #E47A0C;
+	padding:10px 10px 10px 10px;
+	box-shadow: inset 17px -17px 1px -10px rgba(156,79,2,0.92);
+	vertical-align: top;
+}
+
+
+.page .headside {
+	height: 80px;
+	border-bottom: 1px solid black;
+	margin-left: 6px;
+}
+/*===================================PAGE======================================*/
+
+
+
+
+
+
+
+
+/*===============================NEWS=========================================*/
+.news {
+	min-height: 500px;
+}
+
+.news .block {
+	margin-top:10px;
+	border:2px solid black;
+	border-left:none;
+	border-right:none;
+}
+
+.number_of_pages {
+	text-align:center;
+	display:inline-block;
+	width:480px;
+}
+
+.link_to_pages {
+	background:#E08410;
+}
+
+.news_username {
+	margin-left:75%;
+font-style: italic;
+}
+.news_username:before {
+	content: 'By ';
+}
+.news_date {
+	margin-left:75%;
+}
+/*===============================NEWS=========================================*/
+
+/*====================================pop up menu style================================*/
+
+
+.pop_up_menu {
+	position:fixed;
+	top:0.1px;
+	right:5px;
+	width:200px;
+	max-height:20px;
+	border-radius: 0 0 8px 8px;
+	background-color:#E08410;
+	overflow:hidden;
+}
+
+.pop_up_menu:hover {
+	max-height:400px;
+	transition:max-height 400ms;
+}
+
+.pop_up_menu a{
+	display:block;
+	margin:30px auto;
+	width: 150px;
+	height: 20px;
+	padding-top:10px;
+	padding-bottom:10px;
+	text-align:center;
+	background-color:#E47A0C;
+	border:2px solid black;
+	border-radius:4px 4px 4px 4px;
+}
+
+/*=====================================pop up menu style================================*/
+
+
+
+
+
+
+/*========================================ABC=========================================*/
+.abc {
+	margin-left:40px;
+}
+/*===================================================================================*/
+
+
+
+
+
+
+/*===================================LOGIN===================================*/
+.login_menu {
+	background-color: #E47A0C;
+	width:400px;
+	min-height: 250px;
+	margin: 100px auto;
+    border:2px solid black;
+    border-radius:9px 9px 9px 9px;
+}
+
+.login_menu div {
+	width:250px;
+	margin: 10px auto;
+}
+
+.login_menu form {
+	margin-top:25px;
+}
+
+.login_menu div span{
+	display:inline-block;
+	line-height:42px;
+	width:40px;
+	height: 42px;
+	text-align: center;
+	border-radius:6px 0 0 6px;
+	background-color:#E08513;
+    border:2px solid black;
+vertical-align: bottom;
+}
+
+.login_menu div input[type="text"] ,.login_menu div input[type="password"]{
+	border-radius:0 6px 6px 0;
+	height: 40px;
+	border:2px solid black;
+	background-color:#E08513;
+	width:195px;
+	border-left:none;
+	margin-left:-4px;
+	vertical-align: bottom;
+}
+
+.login_menu input[type="submit"] {
+	background-color:#FF8000;
+	border-radius:6px 6px 6px 6px;
+	width:235px;
+	margin-left:4px;
+	margin-top:20px;
+	border-color:black;
+}
+
+/*===================================LOGIN===================================*/
+
+
+
+
+
+
+/*===================================REGISTER===================================*/
+.register_menu {
+	background-color: #E47A0C;
+	width:650px;
+	min-height: 250px;
+	margin: 100px auto;
+    border:2px solid black;
+    border-radius:9px 9px 9px 9px;
+}
+
+.register_menu form {
+	margin-top:25px;
+	margin-left:10px;
+}
+
+
+.register_menu div {
+	display:block;
+	margin-left:20px;
+	margin-bottom:5px;
+	
+}
+
+.register_menu div label {
+	line-height:35px;
+	vertical-align:top;
+	display:inline-block;
+	background-color:#E08513;
+	border-radius:6px 0px 0px 6px;
+	width:200px;
+	border:2px solid black;
+	text-align:center;
+	border-right:none;
+	padding:0;
+}
+
+
+
+.register_menu div input {
+	line-height:35px;
+	vertical-align:top;
+	display:inline-block;
+	background-color:#E08513;
+	border-radius:0px 6px 6px 0px;
+	width:250px;
+	margin-left:-2px;
+	border-color:black;
+	text-align:center;
+	padding:0;
+}
+
+.register_menu div .error_space {
+	color:black;
+}
+
+.register_menu input[type="submit"] {
+	background-color:#FF7A1C;
+border-radius:6px 6px 6px 6px;
+width:450px;
+margin-left:0;
+}
+
+.register_menu span.error_space {
+	margin-left:2px;
+}
+/*===================================REGISTER===================================*/
+
+
+
+
+
+/*===================================GAMES======================================*/
+
+.games {
+	min-height: 300px;
+}
+
+.games .block {
+		margin-top:10px;
+	border:2px solid black;
+	border-left:none;
+	border-right:none;
+	
+}
+
+.games  a {
+	color:blue;
+}
+
+.search-toolkit {
+	border-bottom:1px solid black;
+	padding-bottom:20px;
+}
+
+.games th,td {
+	padding:5px;
+}
+
+.games table, .games th, .games td {
+	border:2px solid black;
+}
+
+/*===================================GAMES======================================*/
+
+
+
+
+
+
+/*===================================PROGILE======================================*/
+
+.profile {
+	margin: 150px auto;
+	width:300px;
+	font-size: 1.2em;
+}
+/*===================================PROGILE======================================*/
+
+
+
+
+
+
+/*===================================ADD REVIEW======================================*/
+.add_review_menu {
+	
+	background-color: #E47A0C;
+	width:500px;
+	min-height: 250px;
+	margin: 100px auto;
+    border:2px solid black;
+   
+    border-radius:9px 9px 9px 9px;
+	
+}
+
+.add_review_menu input  {
+	margin: 10px 10px 10px 5px;
+}
+
+.add_review_menu form {
+	margin-top:25px;
+	 padding:10px 10px 10px 10px;
+}
+
+.add_review_menu input[type="submit"] {
+	display:block;
+}
+
+.add_review_menu textarea {
+	margin : 0;
+	height:300px;
+}
+
+
+/*===================================ADD REVIEW======================================*/
+
+/*===================================ADD NEWS======================================*/
+.add_news_menu {
+	
+	background-color: #E47A0C;
+	width:500px;
+	min-height: 250px;
+	margin: 100px auto;
+    border:2px solid black;
+    border-radius:9px 9px 9px 9px;
+	
+}
+
+.add_news_menu input{
+	margin: 10px 10px 10px 5px;
+}
+.add_news_menu input[type="submit"] {
+	display:block;
+}
+
+.add_news_menu textarea {
+	margin : 0 0 0 0;
+}
+
+.add_news_menu textarea {
+height:300px;
+}
+.add_news_menu form {
+	margin-top:25px;
+	padding:10px 10px 10px 10px;
+}
+
+.text_label{
+	display:block;
+
+	padding:0;
+	border: 2px solid black;
+	border-radius:6px  6px 0  0 ;
+width:300px;
+}
+
+/*===================================ADD NEWS======================================*/
+
+
+/*===================================REVIEW======================================*/
+.review_username {
+	margin-left:75%;
+font-style: italic;
+}
+.review_username:before {
+	content: 'By ';
+}
+/*===================================REVIEW======================================*/
+
+
+
+/*===========================OTHER=============================*/
+.closeButton {
+	display:inline-block;
+	float:right;
+	width:20px;
+	height:20px;
+	background-color:red;
+}
+
+
+.error_space {
+color:#FF0000;	
+}
+
+.topic {
+	text-align:center;
+font-size:4em;
+font-weight:bold;
+}
+
+.wordwrap { 
+   white-space: pre-wrap;      /* CSS3 */   
+   white-space: -moz-pre-wrap; /* Firefox */    
+   white-space: -pre-wrap;     /* Opera <7 */   
+   white-space: -o-pre-wrap;   /* Opera 7 */    
+   word-wrap: break-word;      /* IE */
+}
+/*===========================OTHER=============================*/
+
+
+
+

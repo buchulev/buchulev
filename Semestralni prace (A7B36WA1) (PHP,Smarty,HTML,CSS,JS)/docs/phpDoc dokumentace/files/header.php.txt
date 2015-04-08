@@ -1,0 +1,19 @@
+<?php
+
+require_once('smarty/libs/Smarty.class.php');
+
+session_start();
+/*
+ * Inicializace smarty
+ */
+$smarty = new Smarty();
+
+/*
+ *  Inicializace slozky pro šablony/compilace
+ *  Budeme šablony renderovat pomoci $smarty->display("jmeno_šablony.tpl");
+ */
+ 
+$smarty->$template_dir = 'view';
+$smarty->$compile_dir ='compile';
+
+?>

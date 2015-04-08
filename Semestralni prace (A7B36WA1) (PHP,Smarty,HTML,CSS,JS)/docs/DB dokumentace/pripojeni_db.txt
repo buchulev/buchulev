@@ -1,0 +1,5 @@
+﻿DB je rozmistěna na školnim server =>
+course-wa1.felk.cvut.cz/phpMyAdmin
+
+Login : buchulev
+Heslo : a7b36wa1
